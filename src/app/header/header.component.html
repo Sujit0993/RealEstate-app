@@ -1,0 +1,151 @@
+<div class="header">
+
+    <img src="assets/img/header-img.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+
+            <div class="subheader">
+                <img src="assets/img/header-logo.png" alt="">
+                    <ul class="list">
+
+                        <li class="Acity"><a href="#">All India</a>
+                          
+                            <div class="sublist">
+                                <h2>Explore real estate in...</h2>
+                                <div class="type">
+                                    <ul>
+                                        <li>Buy</li>
+                                        <li>Rent/Lease</li>
+                                        <li>Pg/Co-living</li>
+                                    </ul>
+                                </div>
+                                <h3>Continue Browsing where you left off</h3>
+                                <button type="button" class="btn1">Buy in Pune</button>
+                            </div>
+                            
+                        </li>
+                        <li class="Acity"><a href="#">For Byers</a>
+                            <div class="sublist">
+                                <h2>Properties In </h2>
+                                <div class="type">
+                                    <ul>
+                                        <li><a href="#">Apartments</a></li>
+                                        <li><a routerLink="/builder">Builder floors</a></li>
+                                        <li>Post Land</li>
+                                        <li>Serviced Apartments</li>
+                                        <li>Farm Houses</li>
+                                    </ul>
+                                </div>
+                                <h3>Verify Property in pune</h3>
+                                <button type="button" class="btn1">Buy in Pune</button>
+                            </div>
+
+                        </li>
+                        <li class="Acity"><a href="#">For Tenants</a>
+                            <div class="sublist ">
+                                <h2>Properties In </h2>
+                                <div class="type">
+                                    <img src="assets/img/header-img.jpg" alt="" width="200" height="150" style="float: right;">
+                                    <ul>
+                                        <li>Apartments</li>
+                                        <li><a routerLink="/builder">Builder floors</a></li>
+                                        <li>Post Land</li>
+                                        <li>Serviced Apartments</li>
+                                        <li>Farm Houses</li>
+                                    </ul>
+                                </div>
+                               
+                                <h3>Verify Property in pune</h3>
+                                <button type="button" class="btn1">Buy in Pune</button>
+                            </div>
+                        </li>
+                        <li class="Acity"><a href="#">For Owner</a>
+                            <div class="sublist ">
+                                <h2>OWNER OFFERING </h2>
+                                <div class="type">
+                                    <img src="assets/img/header-img.jpg" alt="" width="200" height="150" style="float: right;">
+                                    <ul>
+                                        <li>Post Property for Free</li>
+                                        <li>Owner Srvices</li>
+                                        <li>My99acres</li>
+                                    </ul>
+                                </div>
+                               
+                                <h3>Verify Property in pune</h3>
+                                <button type="button" class="btn1">Buy in Pune</button>
+                            </div>
+                        
+                        </li>
+                        <li class="Acity"><a href="#">For Dealers/Builders</a></li>
+                        <li class="Acity"><a href="#">Post Property</a></li>
+                    </ul>
+            </div>
+
+</div>
+
+
+<div class="serch-sect">
+    <div class="srh-title">
+        <ul>
+            <li><a href="#">Buy</a></li>
+            <li><a href="#">Rent</a></li>
+            <li><a href="#">PG/Co-Living</a></li>
+            <li><a href="#">Commercial</a></li>
+            <li><a href="#">Coworking</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Dealers</a></li>
+        </ul>
+    </div>
+    <div class="srh-cnt">
+        <div class="resdent">
+            <div class="resh3">
+            <h3 (click)=toggleDisplayDiv()>All Residential</h3>
+            <!-- <button (click)=toggleDisplayDiv() class="resh3btn">All Residential</button> -->
+            </div>
+            <input type="search" name="searchbox" id="boxsrh" placeholder="Search city, locality, project,Society">
+            <div class="resb1">
+            <button type="button" class="resbtn">Search</button></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="sub-resdent" [hidden]="isShowDiv">
+        <div class="res-pop">
+        <div class="sr1 srcom">
+            <div>
+            <input type="checkbox" name="residental" id="res1">
+            <label for="res1">Residential Apartment</label></div>
+            <div>
+            <input type="checkbox" name="residental" id="res2">
+            <label for="res2">Residential Land</label></div>
+            <div>
+            <input type="checkbox" name="residental" id="res3">
+            <label for="res3">Serviced Apartment</label> 
+            </div>
+        </div>
+
+    <div class="sr2 srcom">
+        <div>
+        <input type="checkbox" name="residental" id="res4">
+        <label for="res4">Independent floor</label>
+        </div>
+        <div>
+        <input type="checkbox" name="residental" id="res5">
+        <label for="res5">1 RK</label>
+        </div>
+        <div>
+        <input type="checkbox" name="residental" id="res6">
+        <label for="res6">Other</label>
+        </div>
+    </div>
+    <div class="sr3 srcom">
+        <div>
+        <input type="checkbox" name="residental" id="res7">
+        <label for="res7">Independent House</label>
+        </div>
+        <div>
+        <input type="checkbox" name="residental" id="res8">
+        <label for="res8">Farm House</label>
+        </div>
+    </div>
+    </div>
+</div>
