@@ -160,3 +160,29 @@
     }
 
 }
+
+
+@media screen and (max-width:768px) {
+    .item{
+        width: 169px;
+    }   
+    .slider .conte{
+        width: 300px;
+    }
+    .next{
+        left: 240px;
+    }
+    .slider{
+        margin: 40px 0 90px 52px;
+    }
+}
+@media screen and (max-width:425px) {
+    .apbuilder{
+        width: 192%;
+    }
+}
+@media screen and (max-width:320px) {
+    .apbuilder{
+        width: 237%;
+    }
+}
